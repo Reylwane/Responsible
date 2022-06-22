@@ -139,8 +139,7 @@ input:invalid~.error::after {
     'fm';
         text-align: center;
     margin: 0 1.5rem;
-   width:420px;
-    margin-left:80px;
+  ;
     }
   .description {
     padding-top: 6rem;
