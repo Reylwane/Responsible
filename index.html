@@ -27,13 +27,18 @@
             </div>
                 
             <form>
-                <input type="text" placeholder="Jonathan |" name="fname">
+                <input type="text" placeholder="Jonathan |" name="fname" required>
+                <div class="error" data-error="First Name cannot be empty"></div>
                 
-                <input type="text" placeholder="Last Name" name="lname">
+                <input type="text" placeholder="Last Name" name="lname" required>
+                <div class="error" data-error="Last Name cannot be empty"></div>
                 
-                <input type="text" placeholder="Email Address" name="email">
+                <input type="email" placeholder="Email Address" name="email" required>
+                 <div class="error" data-error="Looks like this is not an email"></div>
                 
-                    <input type="text" placeholder="Password" name="pss">
+                    <input type="password" placeholder="Password" name="pss" required>
+                <div class="error" data-error="Password cannot be empty"></div>
+                
                     <input type="button" value="CLAIM YOUR FREE TRAIL">
                 
                 <p><small>By clicking the button, you are agreeing to our</small><strong>Terms and Services</strong>
