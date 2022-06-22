@@ -147,17 +147,11 @@ input:invalid~.error::after {
     margin: unset;
   }
   .description h1 { font-size: 28px;
-      
-      
-        }
+      }
   .description p { padding-bottom: 3rem;
-    font-size:15px;
-    padding-left: 42px;}
+    
+   }
 
   form {margin-bottom: 3rem;
-    width:420px;
-    height: unset;
+   
      }
-}
-.Try{ width:420px;
-}
